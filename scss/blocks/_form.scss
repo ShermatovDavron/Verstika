@@ -1,0 +1,39 @@
+.form{
+    @include display(flex-start,center);
+    padding:20px 0;
+    address{
+        max-width: 300px;
+    }
+    div{
+        max-width: 300px;
+        margin-left: 50px;
+        a{
+            text-decoration: none;
+            color:#263238;
+            font-size: 18px;
+            display: block;
+            line-height: 30px;
+        }
+    }
+}
+@media screen and(max-width:600px) {
+    .form{
+        @include display(center,start);
+        flex-direction: column;
+        padding:20px 0;
+        address{
+            max-width: 300px;
+        }
+        div{
+            max-width: max-content;
+            margin-left: 0px;
+            a{
+                text-decoration: none;
+                color:#263238;
+                font-size: 18px;
+                display: block;
+                line-height: 20px;
+            }
+        }
+    }
+}

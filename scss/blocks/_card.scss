@@ -1,0 +1,53 @@
+.card{
+    padding: 20px 0;
+    font-family: Roboto-Light;
+    @include display(center,center);
+    flex-direction: column;
+   &__name{
+    text-align: center;
+    color:#1F2E35;
+   }
+   &__box{
+    margin-top: 10px;
+    @include display(space-between,center);
+    padding:20px 0;
+    div{
+        max-width:350px;
+        padding: 15px;
+        margin: 0 10px;
+        box-sizing:border-box;
+        a{
+            padding: 5px 15px;
+        }
+    }
+   }
+}
+@media screen and (max-width:800px) {
+    .card{
+    padding: 15px 0;
+    font-family: Roboto-Light;
+    @include display(center,center);
+    flex-direction: column;
+    width: 100%;
+   &__name{
+    text-align: center;
+    color:#1F2E35;
+   }
+   &__box{
+    width: 90%;
+    margin-top: 10px;
+    @include display(center,center);
+    flex-direction: column;
+    padding:15px 0;
+    div{
+        min-width: 95%;
+        padding: 15px;
+        margin: 0 10px;
+        box-sizing:border-box;
+        a{
+            padding: 5px 15px;
+        }
+    }
+   }
+}
+}

@@ -1,0 +1,9 @@
+$box-back-color:black;
+$btn-back-color:blue;
+
+
+@mixin display($justify,$align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

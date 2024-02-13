@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+
+*, 
+*::after,
+*::before{
+    box-sizing: inherit;
+
+}
+
+body{
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+
+h1{
+    margin: 0;
+}
+
+img{
+    // display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.link{
+    text-decoration: none;
+    color:#EE4248;
+    font-size: Roboto-Light;
+}
+.link-button{
+    font-family: Roboto-light;
+                display: inline-block;
+                text-decoration: none;
+                color:#ffffff;
+                background-color:#EE4248;
+                box-shadow: 1px 1px 4px 1px #00000040;
+                border-radius: 4px;
+}
+h3,p,a{
+    font-family: Roboto-Light;
+}
+
+

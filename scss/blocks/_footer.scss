@@ -1,0 +1,11 @@
+.footer{
+    background-color:#EE4248;
+    height: 60px;
+    @include display(center,center);
+   p{
+    font-family: Roboto-Light;
+    p{
+        font-weight: 600;
+    }
+   }
+}
